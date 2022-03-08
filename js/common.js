@@ -1,3 +1,4 @@
+
 $(function()
 {
     $('#toggle').click(function(){
@@ -35,6 +36,20 @@ $(function()
         if(nowST>$('#in').height()){
             $('#about img').addClass('on');
         }
+        $('.nav-link').css({'color':'#fff'});
+				if(nowST<$('#about').offset().top){
+					$('.nav-link').eq(0).css({'color':'#e0cdb1'});
+				}else if(nowST<$('#deginer').offset().top){
+					$('.nav-link').eq(1).css({'color':'#e0cdb1'});
+				}else if(nowST<$('#service').offset().top){
+					$('.nav-link').eq(2).css({'color':'#e0cdb1'});
+				}else if(nowST<$('#gallery').offset().top){
+					$('.nav-link').eq(3).css({'color':'#e0cdb1'});
+				}else if(nowST<$('#contect').offset().top){
+					$('.nav-link').eq(4).css({'color':'#e0cdb1'});
+				}else{
+					$('.nav-link').eq(5).css({'color':'#e0cdb1'});
+				}
     });
 
     $('#gallery li img').click(function(){
@@ -54,6 +69,12 @@ $(function()
 
 
 })
+
+
+
+
+
+
 
    
 
