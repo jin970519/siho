@@ -1,8 +1,9 @@
 /* 공통 */
 *{margin: 0; padding: 0;}
 .inner{width: 1300px; margin: 0 auto;}
-@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Festive&family=Noto+Sans:ital,wght@0,700;1,700&family=Playfair+Display:wght@800&family=Roboto:wght@100&display=swap');
 @import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
 
